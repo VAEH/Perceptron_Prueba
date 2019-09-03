@@ -1,15 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package rn_backpropagation;
+
+package Perceptron
 
 /**
  *
- * @author Yohary Pabon
+ * @author Víctor Echavarría
  */
-public class RN_BackPropagation {
+public class Preceptron {
 
     //LA TASA DE APRENDIZAJE  Y LOS PESOS NO DEBEN DE ESTAR QUEMADOS EN EL CODIGO
   static double [] datosReales = new double [71];
@@ -58,8 +54,7 @@ public class RN_BackPropagation {
       dProcesamiento.imprimirSalida();
      
       
-     //HALLAR EL ERROR
-     //POTENCIA (REAL-SALIDA;2)
+ //2
   
          real =cargarDatosReales();
           System.out.println("_____________________________________________");
@@ -90,14 +85,13 @@ public class RN_BackPropagation {
      System.out.println("PESO w4: " +wO4);
          
          
-         //CICLO WHILE HASTA QUE EL erTotal = epsilon
-         
+         ////3     
          double ErrS=0;
          double EO1=0;
          double EO2=0;
          double EO3=0;
          double EO4=0;
-         double n=1;// TASA DE APRENDIZAJE
+         double n=1;// 4
          int contI=0;
         
          double w1=0;
