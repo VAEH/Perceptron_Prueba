@@ -3,7 +3,7 @@ package Perceptron;
 
 /**
  *
- * @author Yohary Pabon
+ * @author Víctor Echavarría. Ayuda y/o acompañamiento: Yesica Tobon
  */
 public class NeuronaI {
    double [] datosEntrada;
